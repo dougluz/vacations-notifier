@@ -1,0 +1,17 @@
+{
+  "name": "vacations-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.15.0",
+    "samba-client": "^3.2.0"
+  }
+}

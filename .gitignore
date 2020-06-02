@@ -1,0 +1,6 @@
+node_modules
+yarn.lock
+yarn-error.log
+nodemon.json
+src/files/*
+!src/files/.gitkeep
