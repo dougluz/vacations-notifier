@@ -1,10 +1,18 @@
-import { readFile } from './src/File'
-import { formatDates } from './src/Dates'
+import { readFile } from './src/utils/File'
+import { formatDates } from './src/utils/Dates'
+import Vacations from './src/controllers/VacationsController'
+
+import connection from './src/config/Mongo'
 
 function main () {
-  readFile('\\files\\Férias.ods')
+
+  connection()
+
+  readFile()
     .then(vacations => formatDates(vacations))
-    .catch(error => console.log(error))
+      .then(formated => formated.forEach(data => Vacations.create(data)))
+        .then(console.log('importação concluida com sucesso'))
+          .catch(error => console.log(error))
 }
 
 main()
