@@ -1,9 +1,17 @@
 
 export const formatDates = (vacations) => {
-  vacations.map(item => {
-    splitDates(item)
-      .then(item => stringToDate(item))
-        .then(item => item)
+  return new Promise((resolve, reject) => {
+    try {
+      let formated = []
+      vacations.map(item => {
+         splitDates(item)
+          .then(item => stringToDate(item))
+            .then(item => formated.push(item))
+              .then(() => resolve(formated))
+      })
+    } catch (error) {
+      reject(error)
+    }
   })
 }
 
