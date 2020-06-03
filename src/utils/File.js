@@ -1,9 +1,10 @@
+import path from 'path'
 import xlsx from 'xlsx'
 
-export const readFile = (path) => {
+export const readFile = () => {
   return new Promise(async (resolve, reject) => {
     try {
-      const file = xlsx.readFile(`${__dirname}${path}`, { cellDates: true})
+      const file = xlsx.readFile(path.resolve(__dirname, '..', 'files', 'Férias.ods'), { cellDates: true})
       let data = xlsx.utils.sheet_to_json(file.Sheets[file.SheetNames[0]]);
       resolve(data)
     } catch (error) {
