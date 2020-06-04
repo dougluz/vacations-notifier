@@ -1,4 +1,5 @@
-import { readFile } from './src/utils/File'
+import { CronJob } from 'cron'
+import { readFile, copyFile } from './src/utils/File'
 import { formatDates } from './src/utils/Dates'
 import Vacations from './src/controllers/VacationsController'
 
@@ -15,4 +16,11 @@ function main () {
           .catch(error => console.log(error))
 }
 
-main()
+const parseData = new CronJob('0 0 23 * * *', () => {
+  main(),
+  null,
+  false,
+  'America/Sao_Paulo'
+})
+
+parseData.start()
