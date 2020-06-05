@@ -17,7 +17,15 @@ class VacationsController {
 
       return result
     } catch (error) {
-      console.log(error)
+      throw new Error(error)
+    }
+  }
+  static async find (query) {
+    try {
+      const vacation = await Vacations.find(query)
+      return vacation
+    } catch (error) {
+      throw new Error(error)
     }
   }
 }
