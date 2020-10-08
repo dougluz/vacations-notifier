@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="988f6672-5a6a-4877-a9c8-77c653361b5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/vacationModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/__tests__/dateService.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/dateService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/fileService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/module-alias.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jest-setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Mail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Mongo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Samba.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/VacationsController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/fileClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Vacation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Dates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/File.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Mail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Vacations.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iar90LKyL6rTqfG4wJQhA257GA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\dougl\Documents\projetos\typescript\vacations-notifier\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dougl\Documents\projetos\typescript\vacations-notifier\test" />
+      <recent name="C:\Users\dougl\Documents\projetos\typescript\vacations-notifier" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.DateService Tests.should throw a error when passing a invalid date string as argument to toLocaleDateFormat">
+    <configuration name="DateService Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/services/__tests__/dateService.test.ts" />
+      <test-names>
+        <test-name value="DateService Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="DateService Tests.should return a date in the correct format when passing date in DD/MM/YYYY format" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/services/__tests__/dateService.test.ts" />
+      <test-names>
+        <test-name value="DateService Tests" />
+        <test-name value="should return a date in the correct format when passing date in DD/MM/YYYY format" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="DateService Tests.should return date in the DD/MM/YYYY format" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/services/__tests__/dateService.test.ts" />
+      <test-names>
+        <test-name value="DateService Tests" />
+        <test-name value="should return date in the DD/MM/YYYY format" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="DateService Tests.should return false when passing a date in a diferent format than DD/MM/YY" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/services/__tests__/dateService.test.ts" />
+      <test-names>
+        <test-name value="DateService Tests" />
+        <test-name value="should return false when passing a date in a diferent format than DD/MM/YY" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="DateService Tests.should throw a error when passing a invalid date string as argument to toLocaleDateFormat" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/services/__tests__/dateService.test.ts" />
+      <test-names>
+        <test-name value="DateService Tests" />
+        <test-name value="should throw a error when passing a invalid date string as argument to toLocaleDateFormat" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.DateService Tests.should throw a error when passing a invalid date string as argument to toLocaleDateFormat" />
+        <item itemvalue="Jest.DateService Tests.should return a date in the correct format when passing date in DD/MM/YYYY format" />
+        <item itemvalue="Jest.DateService Tests" />
+        <item itemvalue="Jest.DateService Tests.should return date in the DD/MM/YYYY format" />
+        <item itemvalue="Jest.DateService Tests.should return false when passing a date in a diferent format than DD/MM/YY" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="988f6672-5a6a-4877-a9c8-77c653361b5e" name="Default Changelist" comment="" />
+      <created>1602156389405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602156389405</updated>
+      <workItem from="1602156390719" duration="5448000" />
+      <workItem from="1602161932726" duration="16513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602156401679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/270.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602156401679" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602187545582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/270.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602187545582" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602187545581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/270.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602187545581" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602187545581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/270.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602187545581" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602187545581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/270.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602187545581" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602159145917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/270.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602159145917" />
+  </component>
+</project>
