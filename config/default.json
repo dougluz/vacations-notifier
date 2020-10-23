@@ -3,6 +3,11 @@
     "port": 3000,
     "database": {
       "mongoUrl": "mongodb://localhost:27017/vacations"
+    },
+    "mail": {
+      "server": "mail.tranorte.com.br",
+      "user": "douglasluz@tranorte.com.br",
+      "password": "099498"
     }
   }
 }
